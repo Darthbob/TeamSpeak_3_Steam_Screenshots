@@ -13,7 +13,8 @@ In the Script is exactly explained how to use these two libraries.
 
 This Script works with PHP 5. I don't know if PHP Versions lesser than 5 also functioning.
 
-This script is very useful if you want to share your Experience with other People.
+Now you can create a cronjob which one executes every 2 minutes the php file.
+Example: */2 * * * * php /home/cronscripts/main.php
 
 Sorry for my bad english and please excuse my language mistakes.
 <br>
