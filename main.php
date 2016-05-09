@@ -9,7 +9,7 @@ $server = array(
         "tsip" => "127.0.0.1",
         "tsport" => "9987",
         "ts_query_admin" => "serveradmin",
-        "ts_query_password" => "friedrich4",
+        "ts_query_password" => "",
         "ts_query_port" => "10011",
 		 
 	"channel_id_enabled" => true,
