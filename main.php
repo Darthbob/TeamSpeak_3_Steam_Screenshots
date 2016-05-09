@@ -3,6 +3,7 @@
 require_once("/var/www/html/ts/libraries/TeamSpeak3/TeamSpeak3.php");
 //paste here the path to ganon.php file
 include('ganon.php');
+
 $server = array(
 	//Insert here the TeamSpeak 3 Server + Query data
         "tsip" => "127.0.0.1",
