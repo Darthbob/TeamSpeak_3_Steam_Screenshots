@@ -21,7 +21,7 @@ $server = array(
 TeamSpeak3::init();
 $ts3_ServerInstance = TeamSpeak3::factory("serverquery://".$server["ts_query_admin"].":".$server["ts_query_password"]."@".$server["tsip"].":".$server["ts_query_port"]."/");
 
-//Here is a list of Steam user ids. Just fill the array in with your ids
+//Here is a list of Steam user ids. Just fill the array in with your ids. Example url which contains the user id: http://steamcommunity.com/profiles/76561198093851700
 $user = array("76561198093851700", "76561198102720386");
 
 
