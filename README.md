@@ -20,3 +20,5 @@ Sorry for my bad english and please excuse my language mistakes.
 <br>
 <h2>Screenshots & Videos</h2>
 <img src="https://github.com/Darthbob/PHP_Teamspeak3_Steam_Screenshots/blob/master/media/screenshot_1.png">
+<br>
+<video src="https://github.com/Darthbob/PHP_Teamspeak3_Steam_Screenshots/blob/master/media/video.mp4">
