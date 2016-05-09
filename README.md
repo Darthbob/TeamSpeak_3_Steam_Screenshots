@@ -18,7 +18,8 @@ This script is very useful if you want to share your Experience with other Peopl
 Sorry for my bad english and please excuse my language mistakes.
 <br>
 <br>
-<h2>Screenshots & Videos</h2>
+<h2>Screenshot</h2>
 <img src="https://github.com/Darthbob/PHP_Teamspeak3_Steam_Screenshots/blob/master/media/screenshot_1.png">
 <br>
+<h2>Video</h2>
 <img src="https://github.com/Darthbob/PHP_Teamspeak3_Steam_Screenshots/blob/master/media/video.gif?raw=true">
