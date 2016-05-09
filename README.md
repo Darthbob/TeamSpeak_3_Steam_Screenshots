@@ -7,13 +7,13 @@ What do this Script?
 Requirements:
 - you need 2 other php libraries
   - Teamspeak 3 PHP-Framwork: http://addons.teamspeak.com/directory/addon/integration/TeamSpeak-3-PHP-Framework.html
-  - ganon: https://github.com/msmuenchen/ganon
+  - ganon: https://github.com/msmuenchen/ganon <br>
 In the Script is exactly explained how to use these two libraries.
 - you need a Teamspeak 3 Query Account which can change the [virtualserver_hostbanner_gfx_url, virtualserver_hostbanner_url, channel_name and channel_description]. In my case i used the "serveradmin" Query.
 
 This Script works with PHP 5. I don't know if PHP Versions lesser than 5 also functioning.
 
-Now you can create a cronjob which one executes every 2 minutes the php file.
+Now you can create a cronjob which one executes every 2 minutes the php file.<br>
 Example: */2 * * * * php /home/cronscripts/main.php
 
 Sorry for my bad english and please excuse my language mistakes.
