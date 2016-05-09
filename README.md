@@ -16,3 +16,5 @@ This Script works with PHP 5. I don't know if PHP Versions lesser than 5 also fu
 This script is very useful if you want to share your Experience with other People.
 
 Sorry for my bad english and please excuse my language mistakes.
+
+[img]http://cdn.akamai.steamstatic.com/steamcommunity/public/images/avatars/0a/0a88c525a74ada123137db58881a322175eda8bf_full.jpg[/img]
