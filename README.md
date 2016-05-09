@@ -16,5 +16,7 @@ This Script works with PHP 5. I don't know if PHP Versions lesser than 5 also fu
 This script is very useful if you want to share your Experience with other People.
 
 Sorry for my bad english and please excuse my language mistakes.
-
+<br>
+<br>
+<h2>Screenshots & Videos</h2>
 <img src="https://github.com/Darthbob/PHP_Teamspeak3_Steam_Screenshots/blob/master/screenshot_1.png">
