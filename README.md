@@ -2,7 +2,7 @@
 This Script changes automatically the Banner of your TeamSpeak 3 Server with a Screenshot from a Steam users profile
 
 What do this Script?
-  This Script selects random from an array (wich contains the Steam user ids) the Steam id. Then the Script selects again random a screentshot only from the LAST 50 scoring screenshots (if you have 300 screenshots it selects only the last 50, the other 250 are not getting selected) and set this Picture as the Teamspeak 3 gfx url. you can also enable a function in which one the selected username is getting pasted into a channel (see Pictures).
+  This Script selects random from an array (which contains the Steam user ids) the Steam id. Then the Script selects again random a screentshot only from the LAST 50 scoring screenshots (if you have 300 screenshots it selects only the last 50, the other 250 are not getting selected) and set this Picture as the Teamspeak 3 gfx url. you can also enable a function in which one the selected username is getting pasted into a channel (see Pictures).
 
 Requirements:
 - you need 2 other php libraries
