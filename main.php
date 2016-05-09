@@ -5,17 +5,17 @@ require_once("libraries/TeamSpeak3/TeamSpeak3.php");
 include('ganon/ganon.php');
 
 $server = array(
-		//Insert here the TeamSpeak 3 Server + Query data
+	//Insert here the TeamSpeak 3 Server + Query data
         "tsip" => "127.0.0.1",
         "tsport" => "9987",
         "ts_query_admin" => "serveradmin",
         "ts_query_password" => "youramazingpassword",
         "ts_query_port" => "10011",
 		 
-		"channel_id_enabled" => true,
-		"channel_id" => 5,
-		//If you dont know what this, then dont change it
-		"virtualserver_id" => 1
+	"channel_id_enabled" => true,
+	"channel_id" => 5,
+	//If you dont know what this, then dont change it
+	"virtualserver_id" => 1
     );
     
 TeamSpeak3::init();
@@ -43,8 +43,7 @@ foreach($html('.profile_media_item') as $element) {
 	
     $itemID = str_replace('imgWallItem_','',$nodeID);
     $link = "http://steamcommunity.com/sharedfiles/filedetails/?id=" . $itemID;
-	
-	$array[] = $link;
+    $array[] = $link;
 }
 
 $list = json_encode($array);
