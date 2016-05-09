@@ -1,15 +1,14 @@
 <?php
 //paste here the path to TeamSpeak3.php file
-require_once("/var/www/html/ts/libraries/TeamSpeak3/TeamSpeak3.php");
+require_once("libraries/TeamSpeak3/TeamSpeak3.php");
 //paste here the path to ganon.php file
-include('ganon.php');
-
+include('ganon/ganon.php');
 $server = array(
 	//Insert here the TeamSpeak 3 Server + Query data
         "tsip" => "127.0.0.1",
         "tsport" => "9987",
         "ts_query_admin" => "serveradmin",
-        "ts_query_password" => "",
+        "ts_query_password" => "youramazingpassword",
         "ts_query_port" => "10011",
 		 
 	"channel_id_enabled" => true,
@@ -22,7 +21,7 @@ TeamSpeak3::init();
 $ts3_ServerInstance = TeamSpeak3::factory("serverquery://".$server["ts_query_admin"].":".$server["ts_query_password"]."@".$server["tsip"].":".$server["ts_query_port"]."/");
 //Here is a list of Steam user ids. Just fill the array in with your ids. Example url which contains the user id: http://steamcommunity.com/profiles/76561198093851700
 $user = array("76561198093851700", "76561198102720386");
-define('STEAM_USER', $user[rand(0,count($user))]);
+define('STEAM_USER', $user[rand(0,(count($user)-1))]);
 define('LIST_URL', "http://steamcommunity.com/profiles/".STEAM_USER."/screenshots/?appid=0&sort=newestfirst&browsefilter=myfiles&view=grid");
 $html = file_get_dom(LIST_URL);
 foreach($html('.profile_media_item') as $element) {
@@ -40,8 +39,9 @@ foreach($html('.profile_media_item') as $element) {
     $link = "http://steamcommunity.com/sharedfiles/filedetails/?id=" . $itemID;
     $array[] = $link;
 }
+$list = json_encode($array);
 $rand = mt_rand(0,49);
-$html = file_get_dom($array[$rand]);
+$html = file_get_dom(json_decode($list)[$rand]);
 foreach($html('.screenshotEnlargeable') as $element) {
 	$source[] = $element->src;
 }
